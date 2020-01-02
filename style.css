@@ -1,0 +1,77 @@
+body {
+    background-image:url('nanami.jpg');
+    background-size: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color:white;
+  }
+
+  h2, h3, h4{
+
+color: white;
+text-transform: uppercase;
+
+  }
+  .tittle {
+    
+    width: 37%;
+    border: 3px solid black;
+    margin: 8px;
+    padding: 12px 16px;
+    
+  }
+  
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center
+      
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color:black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+        text-align: center
+      
+  }
+  
+  input[type=submit]:hover {
+    
+    background-color:rgb(60, 60, 60);
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    
+  }
+  
+  div {
+    border-radius: 5px;
+    
+    padding: 10px;
+  }
+  .formu{
+    text-transform: uppercase;
+    width: 500px;
+    text-shadow: 3px 1px black;
+  }
+
+  .Resultado{
+      font-size: 25px;
+    letter-spacing: 3px;
+    width: 500px;
+    text-shadow: 3px 2px rgb(71, 70, 70);
+  }
